@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blueligh"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context="com.example.sophie.proyecto.MainActivity">
+
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/titulo_main"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_medium"
+
+        android:text="Iniciar sesion" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="145dp"
+        android:layout_height="147dp"
+        android:src="@drawable/algorithm" />
+
+    <EditText
+        android:id="@+id/usuario_main"
+        android:drawableLeft="@drawable/ic_user"
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="  Usuario"
+        />
+
+    <EditText
+        android:id="@+id/pass_id"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/colorPrimary"
+        android:drawableLeft="@drawable/ic_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:hint="  Contraseña"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_marginLeft="50dp"
+            android:id="@+id/check_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+
+            android:drawableLeft="@drawable/ic_eye"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="240dp"
+        android:background="@drawable/button_style"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:onClick="login"
+        android:text="Entrar" />
+
+</LinearLayout>

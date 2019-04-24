@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.sophie.proyecto.SplashScreen">
+
+
+    <TextView
+        android:id="@+id/texto_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:text="Bienvenido de nuevo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="70px" />
+
+
+    <ImageView
+        android:id="@+id/imagen_splash"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"/>
+
+
+</LinearLayout>
